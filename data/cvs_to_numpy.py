@@ -39,7 +39,7 @@ def format_image(image):
   except Exception:
     print("[+] Problem during resize")
     return None
-  print image.shape
+  print (image.shape)
   return image
 
 
